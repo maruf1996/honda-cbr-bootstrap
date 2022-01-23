@@ -1,0 +1,81 @@
+/* Custome Css  */
+
+header {
+    background-color: #264653;
+    height: 620px;
+}
+
+.honda_btn_color {
+    background-color: #E76F51;
+}
+
+.honda_btn_color_hover {
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+
+.honda_btn_color_hover:hover {
+    background-color: #E76F51;
+    color: white;
+}
+
+.star_color {
+    color: #E76F51;
+}
+
+.img_header {
+    width: 552px;
+    height: 447px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.bike img {
+    width: 280px;
+    height: 243px;
+}
+
+.bike_img_gray {
+    filter: grayscale(100%);
+}
+
+.honda_text_color {
+    color: #E76F51;
+}
+
+/* Responsive Mobile  */
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .img_header {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    header {
+        background-color: #264653;
+        height: 850px;
+    }
+
+    .mobile_responsive {
+        margin-top: 60px;
+        margin-left: 75px;
+    }
+
+    .mobile_responsive_extra {
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+    .mobile_responsive_client {
+        margin-left: 40px;
+    }
+
+
+}
